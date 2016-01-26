@@ -24,7 +24,6 @@ class SutdaDeck {
         ArrayList<SutdaCard> sutda = new ArrayList<>();
         for (int i = 0; i < cards.length; i++) {
             sutda.add(cards[i]);
-            System.out.println(sutda.get(i));
         }
         Collections.shuffle(sutda); // 리스트내의 값을 랜덤하게 재배열
         for (int i = 0; i < cards.length; i++) {
